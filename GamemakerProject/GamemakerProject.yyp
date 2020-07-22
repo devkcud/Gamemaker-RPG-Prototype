@@ -2,7 +2,11 @@
   "resources": [
     {"id":{"name":"fntHUD","path":"fonts/fntHUD/fntHUD.yy",},"order":1,},
     {"id":{"name":"pEnemyBase","path":"objects/pEnemyBase/pEnemyBase.yy",},"order":0,},
+    {"id":{"name":"oCollisionWall","path":"objects/oCollisionWall/oCollisionWall.yy",},"order":0,},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"sCollisionWall","path":"sprites/sCollisionWall/sCollisionWall.yy",},"order":0,},
     {"id":{"name":"sEnemyTest","path":"sprites/sEnemyTest/sEnemyTest.yy",},"order":0,},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"scrEnemyStates","path":"scripts/scrEnemyStates/scrEnemyStates.yy",},"order":0,},
@@ -27,17 +31,20 @@
     {"name":"rmFirst","path":"rooms/rmFirst/rmFirst.yy",},
   ],
   "Folders": [
-    {"folderPath":"folders/Player.yy","order":0,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms.yy","order":2,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms.yy","order":3,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Player/sprites.yy","order":1,"resourceVersion":"1.0","name":"sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Player/objects.yy","order":2,"resourceVersion":"1.0","name":"objects","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Enemies.yy","order":1,"resourceVersion":"1.0","name":"Enemies","tags":[
+    {"folderPath":"folders/Enemies.yy","order":2,"resourceVersion":"1.0","name":"Enemies","tags":[
         "entity",
       ],"resourceType":"GMFolder",},
     {"folderPath":"folders/Enemies/sprites.yy","order":1,"resourceVersion":"1.0","name":"sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Enemies/objects.yy","order":2,"resourceVersion":"1.0","name":"objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Enemies/scripts.yy","order":3,"resourceVersion":"1.0","name":"scripts","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Fonts.yy","order":3,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Fonts.yy","order":4,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Tiles.yy","order":0,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Tiles/sprites.yy","order":1,"resourceVersion":"1.0","name":"sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Tiles/objects.yy","order":2,"resourceVersion":"1.0","name":"objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -5,7 +5,7 @@ function EnemyIdle() {
 
 function EnemyChase() {
 	var targetX = oPlayer.x - x,
-	targetY = oPlayer.y - y;
+		targetY = oPlayer.y - y;
 
 	var speedTargetX = sign(targetX) * velocity,
 		speedTargetY = sign(targetY) * velocity;
@@ -17,6 +17,22 @@ function EnemyChase() {
 	
 	if (sign(targetX) != 0)
 		image_xscale = sign(targetX);
+
+	// Horizontal Collision
+	if (place_meeting(x + speedTargetX, y, oCollisionWall)) {
+		while (!place_meeting(x + speedTargetX, y, oCollisionWall))
+			x += sign(speedTargetX);
+	
+		speedTargetX = 0;
+	}
+
+	// Vertical Collision
+	if (place_meeting(x, y + speedTargetY, oCollisionWall)) {
+		while (!place_meeting(x, y + speedTargetY, oCollisionWall))
+			y += sign(speedTargetY);
+	
+		speedTargetY = 0;
+	}
 
 	x += speedTargetX;
 	y += speedTargetY;

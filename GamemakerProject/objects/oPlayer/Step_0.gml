@@ -4,11 +4,31 @@ var keyUp = keyboard_check(vk_up) || keyboard_check(ord("W")),
 	keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A")),
 	keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
 
-xAxis = keyLeft - keyRight;
-yAxis = keyUp - keyDown;
+getXAxis = keyLeft - keyRight;
+getYAxis = keyUp - keyDown;
 
-x -= xAxis * velocity;
-y -= yAxis * velocity;
+xAxis = getXAxis * velocity;
+yAxis = getYAxis * velocity;
+
+/* -- Collision Check -- */
+// Horizontal Collision
+if (place_meeting(x - xAxis, y, oCollisionWall)) {
+	while (!place_meeting(x - xAxis, y, oCollisionWall))
+		x -= sign(xAxis);
+	
+	xAxis = 0;
+}
+
+// Vertical Collision
+if (place_meeting(x, y - yAxis, oCollisionWall)) {
+	while (!place_meeting(x, y - yAxis, oCollisionWall))
+		y -= sign(yAxis);
+	
+	yAxis = 0;
+}
+
+x -= xAxis;
+y -= yAxis;
 
 if (life <= 0) {
 	instance_destroy();
