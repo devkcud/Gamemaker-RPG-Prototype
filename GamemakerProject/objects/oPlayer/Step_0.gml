@@ -9,3 +9,8 @@ yAxis = keyUp - keyDown;
 
 x -= xAxis * velocity;
 y -= yAxis * velocity;
+
+if (life <= 0) {
+	instance_destroy();
+	game_restart();
+}
