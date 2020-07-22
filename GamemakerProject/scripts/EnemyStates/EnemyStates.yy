@@ -6,7 +6,7 @@
     "path": "folders/Enemies/scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrEnemyStates",
+  "name": "EnemyStates",
   "tags": [],
   "resourceType": "GMScript",
 }

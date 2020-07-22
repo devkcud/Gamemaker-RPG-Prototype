@@ -9,7 +9,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
-    {"id":{"name":"scrEnemyStates","path":"scripts/scrEnemyStates/scrEnemyStates.yy",},"order":0,},
+    {"id":{"name":"EnemyStates","path":"scripts/EnemyStates/EnemyStates.yy",},"order":0,},
     {"id":{"name":"fntCustomName","path":"fonts/fntCustomName/fntCustomName.yy",},"order":0,},
     {"id":{"name":"oEnemyTest","path":"objects/oEnemyTest/oEnemyTest.yy",},"order":1,},
     {"id":{"name":"rmFirst","path":"rooms/rmFirst/rmFirst.yy",},"order":0,},
@@ -54,7 +54,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "23.1.1.172",
+    "IDEVersion": "23.1.1.174",
   },
   "resourceVersion": "1.3",
   "name": "GamemakerProject",
