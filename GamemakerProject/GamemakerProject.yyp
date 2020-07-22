@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"fntHUD","path":"fonts/fntHUD/fntHUD.yy",},"order":1,},
     {"id":{"name":"pEnemyBase","path":"objects/pEnemyBase/pEnemyBase.yy",},"order":0,},
     {"id":{"name":"sEnemyTest","path":"sprites/sEnemyTest/sEnemyTest.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
