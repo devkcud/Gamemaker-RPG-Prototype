@@ -1,5 +1,5 @@
 /// @desc Follow Player
-if (follow == noone)
+if (follow == noone || !instance_exists(follow))
 	follow = oCamera;
 	
 xTo = follow.x;
