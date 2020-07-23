@@ -27,8 +27,10 @@ if (place_meeting(x, y - yAxis, oCollisionWall)) {
 	yAxis = 0;
 }
 
-x -= xAxis;
-y -= yAxis;
+if (!showingInventory) {
+	x -= xAxis;
+	y -= yAxis;
+}
 
 if (xAxis != 0)
 	image_xscale = -sign(xAxis);

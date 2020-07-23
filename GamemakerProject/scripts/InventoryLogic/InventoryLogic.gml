@@ -12,7 +12,7 @@ function GetSlotEmptiness(slotX, slotY) {
 }
 
 // Set
-function SetItemSlot(slotX, slotY, itemID) {
+function SetItem(slotX, slotY, itemID) {
 	return ds_grid_set(global.inventoryGrid, slotX, slotY, itemID);
 }
 
@@ -21,7 +21,7 @@ function SetFirstBlankSlot(itemID) {
 		for (var ww = 0; ww < inventoryWidth; ++ww) {
 			
 			if (GetSlotEmptiness(ww, hh)) {
-				SetItemSlot(ww, hh, itemID);
+				SetItem(ww, hh, itemID);
 				return true;
 			}
 			

@@ -4,6 +4,7 @@
     {"id":{"name":"pEnemyBase","path":"objects/pEnemyBase/pEnemyBase.yy",},"order":0,},
     {"id":{"name":"oTestItem","path":"objects/oTestItem/oTestItem.yy",},"order":1,},
     {"id":{"name":"oCollisionWall","path":"objects/oCollisionWall/oCollisionWall.yy",},"order":0,},
+    {"id":{"name":"InventoryItemManager","path":"scripts/InventoryItemManager/InventoryItemManager.yy",},"order":4,},
     {"id":{"name":"sInventoryCell","path":"sprites/sInventoryCell/sInventoryCell.yy",},"order":0,},
     {"id":{"name":"pItemBase","path":"objects/pItemBase/pItemBase.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
