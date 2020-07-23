@@ -2,3 +2,8 @@
 #macro INITIAL_INVENTORY_HEIGHT 4
 #macro MAX_INVENTORY_WIDTH 8
 #macro MAX_INVENTORY_HEIGHT 8
+
+enum InventoryItems {
+	Null = 0,
+	TestItem = 1,
+}

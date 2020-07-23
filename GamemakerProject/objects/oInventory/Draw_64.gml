@@ -5,3 +5,4 @@ if (showingInventory == false)
 draw_rectangle_color(0, 0, room_width, room_height, 0, 0, 0, 0, false);
 
 DrawInventoryCells();
+DrawInventoryItems();

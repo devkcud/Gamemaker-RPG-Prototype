@@ -6,7 +6,7 @@
     "path": "folders/Inventory/scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DrawInventory",
+  "name": "InventoryLogic",
   "tags": [],
   "resourceType": "GMScript",
 }
