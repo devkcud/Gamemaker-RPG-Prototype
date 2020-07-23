@@ -9,6 +9,9 @@ instance_activate_all();
 if (showingInventory == false)
 	exit;
 
+MovementSelectedSlot();
+
+// Pausing the Game
 var objectsToPause = [
 	oCamera,
 	oPlayer,

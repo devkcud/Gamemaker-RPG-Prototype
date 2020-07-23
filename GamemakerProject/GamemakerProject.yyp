@@ -13,6 +13,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"InventoryMovement","path":"scripts/InventoryMovement/InventoryMovement.yy",},"order":3,},
     {"id":{"name":"EnemyStates","path":"scripts/EnemyStates/EnemyStates.yy",},"order":0,},
     {"id":{"name":"sItems","path":"sprites/sItems/sItems.yy",},"order":1,},
     {"id":{"name":"InventoryDraw","path":"scripts/InventoryDraw/InventoryDraw.yy",},"order":1,},

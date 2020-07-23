@@ -6,7 +6,11 @@ function DrawInventoryCells() {
 			var vX = sprite_get_width(sInventoryCell) + ((buffer + sprite_get_width(sInventoryCell)) * ww),
 				vY = sprite_get_height(sInventoryCell) + ((buffer + sprite_get_width(sInventoryCell)) * hh);
 			
+			var sX = sprite_get_width(sInventoryCell) + ((buffer + sprite_get_width(sInventoryCell)) * inventorySelectedSlotX),
+				sY = sprite_get_height(sInventoryCell) + ((buffer + sprite_get_width(sInventoryCell)) * inventorySelectedSlotY);
+			
 			draw_sprite(sInventoryCell, 0, vX, vY);
+			draw_sprite(sInventoryCell, 1, sX, sY);
 		}
 }
 
