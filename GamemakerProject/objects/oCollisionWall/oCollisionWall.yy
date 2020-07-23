@@ -29,6 +29,8 @@
   },
   "resourceVersion": "1.0",
   "name": "oCollisionWall",
-  "tags": [],
+  "tags": [
+    "collision",
+  ],
   "resourceType": "GMObject",
 }

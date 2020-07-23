@@ -34,6 +34,9 @@
   },
   "resourceVersion": "1.0",
   "name": "oEnemyTest",
-  "tags": [],
+  "tags": [
+    "entity",
+    "enemy",
+  ],
   "resourceType": "GMObject",
 }

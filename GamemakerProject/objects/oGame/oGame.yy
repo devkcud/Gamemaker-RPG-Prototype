@@ -28,6 +28,8 @@
   },
   "resourceVersion": "1.0",
   "name": "oGame",
-  "tags": [],
+  "tags": [
+    "main",
+  ],
   "resourceType": "GMObject",
 }

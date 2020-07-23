@@ -29,6 +29,8 @@
   },
   "resourceVersion": "1.0",
   "name": "oCamera",
-  "tags": [],
+  "tags": [
+    "main",
+  ],
   "resourceType": "GMObject",
 }

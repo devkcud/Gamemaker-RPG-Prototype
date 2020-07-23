@@ -1,0 +1,1 @@
+/// @desc Destroy Inventory Grid
