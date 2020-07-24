@@ -30,10 +30,10 @@ if (place_meeting(x, y - yAxis, oCollisionWall)) {
 if (!showingInventory) {
 	x -= xAxis;
 	y -= yAxis;
-}
 
-if (xAxis != 0)
-	image_xscale = -sign(xAxis);
+	if (xAxis != 0)
+		image_xscale = -sign(xAxis);
+}
 
 if (life <= 0) {
 	instance_destroy();
