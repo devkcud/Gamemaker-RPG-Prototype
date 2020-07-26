@@ -1,6 +1,6 @@
 {
-  "bboxMode": 2,
-  "collisionKind": 1,
+  "bboxMode": 0,
+  "collisionKind": 4,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -103,12 +103,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","path":"sprites/sCursor/sCursor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","path":"sprites/sCursor/sCursor.yy",},"LayerId":{"name":"65d04a69-7321-45a8-93d4-8a2dd49ef201","path":"sprites/sCursor/sCursor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},"resourceVersion":"1.0","name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","path":"sprites/sCursorCollision/sCursorCollision.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","path":"sprites/sCursorCollision/sCursorCollision.yy",},"LayerId":{"name":"65d04a69-7321-45a8-93d4-8a2dd49ef201","path":"sprites/sCursorCollision/sCursorCollision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCursorCollision","path":"sprites/sCursorCollision/sCursorCollision.yy",},"resourceVersion":"1.0","name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},
+    "spriteId": {"name":"sCursorCollision","path":"sprites/sCursorCollision/sCursorCollision.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -120,7 +120,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3670d9f5-c6d7-460f-88a5-17e88d63a462","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","path":"sprites/sCursor/sCursor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"33053c4c-56e8-41dd-92a3-9f7c990bccb5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6e35fd3a-ffb3-4a9b-b694-a529a436d9e1","path":"sprites/sCursorCollision/sCursorCollision.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -137,9 +137,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},
+    "parent": {"name":"sCursorCollision","path":"sprites/sCursorCollision/sCursorCollision.yy",},
     "resourceVersion": "1.3",
-    "name": "sCursor",
+    "name": "sCursorCollision",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -151,7 +151,7 @@
     "path": "folders/Main/Mouse/sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sCursor",
+  "name": "sCursorCollision",
   "tags": [],
   "resourceType": "GMSprite",
 }

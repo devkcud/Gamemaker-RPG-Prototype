@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": false,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sCursorCollision",
+    "path": "sprites/sCursorCollision/sCursorCollision.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
