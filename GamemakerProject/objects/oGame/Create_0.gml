@@ -2,6 +2,7 @@
 initObjects = [
 	oCamera,
 	oInventory,
+	oCursor,
 ];
 
 for (var i = 0; i < array_length(initObjects); ++i)

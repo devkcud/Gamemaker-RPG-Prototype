@@ -31,6 +31,10 @@ if (!showingInventory) {
 	x -= xAxis;
 	y -= yAxis;
 
+	var xCursor = sign(oCursor.x - x);
+	if (xCursor != 0)
+		image_xscale = xCursor;
+
 	if (xAxis != 0)
 		image_xscale = -sign(xAxis);
 }
